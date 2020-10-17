@@ -1,0 +1,373 @@
+<resources>
+    <string name="app_name">Chicago Guide</string>
+
+    <string name="category_restaurants">Restaurants</string>
+
+    <!-- Category name for the vocabulary words for colors [CHAR LIMIT=20] -->
+    <string name="category_museum">Museums</string>
+
+    <!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
+    <string name="category_parks">Parks</string>
+
+    <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
+    <string name="category_hotels">Hotels</string>
+
+
+    <string-array name="nameofMuseums">
+        <item>The Field Museum</item>
+        <item>Chicago History Museum</item>
+        <item>Museum of Contemporary Photography</item>
+        <item>Art Institute of Chicago</item>
+        <item>Museum of Science and Industry</item>
+        <item>Adler Planetarium</item>
+        <item>The Oriental Institute Museum</item>
+        <item>Smart Museum of Art</item>
+        <item>Museum of Contemporary Art</item>
+    </string-array>
+    <string-array name="descriptionOfMuseum">
+        <item>Originally founded to house the biological and anthropological collections assembled for the World\’s Columbian Exposition of 1893,
+            this massive natural history museum still packs them in with more than 30 permanent exhibitions covering 300,000 square feet.
+            Guests come from all around the world to see towering dinos,
+            marvel at ancient artifacts from a royal Egyptian tomb or relax in a Chinese rock garden hidden inside the Cyrus Tang Hall of China.</item>
+        <item>Formerly known as the Chicago Historical Society,
+            this lively museum commemorates the past through the exhibitions that explore historical figures like Abraham Lincoln and local delicacies like the Chicago-style hot dog.
+            Guests can climb aboard a vintage "El" car in "Chicago: Crossroads of America" or gaze at lithographs of the city that were created in the 1860s.
+            If you\'re working on a project that draws on the history of Chicago,
+            you can register for access to the museum\'s Research Library,
+            which houses thousands of photographs, publications and artifacts that document the city\'s history.</item>
+        <item>Stop scrolling through Instagram and
+            check out some of the amazing shots that line the walls of the Museum of Contemporary Photography.
+            Founded by Columbia College Chicago,
+            the Loop-based gallery hosts around six shows each year,
+            including groundbreaking new work made by artists around the globe as well as archival prints from the institution\'s archives.
+            It doesn\'t take long to see everything on display in this relatively small museum,
+            which makes it a perfect place to experience a bit of culture during your lunch break.</item>
+        <item>One of the city\'s most well-known cultural buildings—thanks to the iconic pair of bronze lions,
+            that flank grand steps leading up to the entrance—the Art Institute of Chicago is just as impressive once you make your way inside.
+            With more than 300,000 artworks in its permanent collection,
+            you\'ll find thousands of paintings, sculptures, photos and drawings displayed throughout a sprawling complex of galleries
+            and halls.
+            If you\'re a first-time guest, make a beeline for Georges Seurat\’s A Sunday on La Grande Jatte
+            and the contemporary collection in the Modern Wing.
+            Returning visitors can explore the Thorne Miniatures Rooms in the museum\'s basement,
+            as well as traveling exhibits devoted to the likes of Andy Warhol and Van Gogh.</item>
+        <item>Packed with exhibits that allow you to step inside a simulated tornado or navigate a maze lined with mirrors,
+            the Museum of Science and Industry has no shortage of interactive bells and whistles that will appeal to younger visitors.
+            Even if you graduated high school decades ago, displays featuring a restored U-505 German submarine,
+            a simulated coal mine and a recreation of a Chicago street,
+            circa 1910, might make you feel like you\'re on a school field trip again—not to mention
+            the fact that you\'re walking through a building that was originally created for the 1893 World\'s Columbian Exposition.</item>
+        <item>Blast off on a journey through the stars at the Adler Planetarium,
+            where the domed Grainger Sky Theater projects super-high-resolution video
+            on an expansive screen that immerses you in the cosmos.
+            Elsewhere, you\'ll find exhibitions devoted to manned moon missions,
+            the solar system and the history of the universe.</item>
+        <item>You\'ll feel like Indiana Jones when you step into this small
+            but formidable University of Chicago–run archaeological treasure trove.
+            Going as far back as 6,000 years, artifacts include a fragment of what\’s believed to be the world\’s oldest rug,
+            an ancient saddle and various ceramic items such as jugs, bowls and incense burners.
+            Also on display are objects from ancient Assyria, Anatolia, Israel, Egypt, Persia and in the Mesopotamian gallery,
+            a stunning, hard-to-miss 40-ton human-headed winged bull sculpture from Khorsabad.</item>
+        <item>Situated on the University of Chicago campus in Hyde Park,
+            the Smart Museum of Art was conceived as an institution where scholars could study the arts and develop exhibitions.
+            Today, it\'s open to the public and is home to the college\'s collection of fine art and antiquities,
+            including scrolls and ceramics from China as well as contemporary works by the likes of Kerry James Marshall and Andy Warhol.
+            Explore exhibits devoted to sprawling installations and local art movements before taking a seat in the museum\'s courtyard sculpture garden.</item>
+        <item>Among the largest institutions in the world dedicated to art created post-1950,
+            the Museum of Contemporary Art is best known for hosting major touring exhibitions,
+            such as a retrospective of Doris Salcedo\'s emotionally charged installations
+            and a colorful display of Japanese artist Takashi Murakami\'s work.
+            Throughout the MCA\'s galleries, you\'ll also find exhibits dedicated to rising local and international artists.
+            Once you\'re finished strolling through the galleries, make sure to exit through the well-curated gift shop.</item>
+    </string-array>
+    <string-array name="addressOfMuseums">
+        <item>1400 S Lake Shore Dr Chicago IL 60605</item>
+        <item>1601 N Clark St Chicago IL 60614</item>
+        <item>600 S Michigan Ave Chicago IL 60605</item>
+        <item>111 S Michigan Ave Chicago IL 60603</item>
+        <item>5700 S Lake Shore Dr Chicago IL 60637</item>
+        <item>1300 S Lake Shore Dr Chicago IL 60605</item>
+        <item>1155 E 58th St Chicago</item>
+        <item>5550 S Greenwood Ave Chicago IL 60637</item>
+        <item>220 E Chicago Ave Chicago</item>
+    </string-array>
+    <string-array name="hoursOfMuseums">
+        <item>Daily 9am–5pm</item>
+        <item>Daily 9:30am–4:30pm</item>
+        <item>Daily 10am–5pm</item>
+        <item>Daily 10:30am–5pm</item>
+        <item>Daily 9:30am–4pm</item>
+        <item>Daily 9:30am–4pm</item>
+        <item>Daily 10am–6pm</item>
+        <item>Daily 10am–5pm</item>
+        <item>Daily 10am–8pm</item>
+    </string-array>
+
+    <string-array name="nameOfParks">
+        <item>Millennium Park</item>
+        <item>Grant Park</item>
+        <item>The 606</item>
+        <item>Lincoln Park</item>
+        <item>Garfield Park</item>
+        <item>Jackson Park</item>
+        <item>Maggie Daley Park</item>
+        <item>South Shore Cultural Center Park</item>
+        <item>Humboldt Park</item>
+    </string-array>
+    <string-array name="descriptionOfParks">
+        <item>This 24.5-acre park might be one of the most popular gathering spots in the city, known for its free concerts,
+            famous public art installations and its proximity to the Loop.
+            The centerpiece of Millennium Park is the Jay Pritzker Pavilion,
+            a flowing Frank Gehry-designed structure that hosts of the city\’s biggest outdoor festivals and concerts.
+            You\’ll also find the serene Lurie Garden,
+            al fresco dining destination the Park Grill and pedestrian bridges that lead to the Art Institute and Maggie Daley Park.
+            Welcome to the hub of Chicago\’s front yard. </item>
+        <item>Grant Park\’s 319-acre expanse is a popular destination for residents and tourists alike,
+            encompassing notable landmarks such as Millennium Park, the Art Institute of Chicago, Buckingham Fountain and Museum Campus.
+            Named for President Ulysses S. Grant, the park frequently hosts festivals, road races and other special events.
+            Wherever you happen to end up in the park,
+            you\’ll be reminded that you\’re still in the middle of Chicago by the spectacular views of the city\’s skyline. </item>
+        <item>A formerly abandoned stretch of elevated railway track that runs through Logan Square, Humboldt Park,
+            Wicker Park and Bucktown has found new life as the 606.
+            Named after the first three digits in every Chicago zip code,
+            the 2.7-mile path provides a quick way to travel east and west on the North Side,
+            connecting several parks and public art installations.
+            Prepare to dodge strollers, bicycles and residents out for a very slow jog on this popular throughway.</item>
+        <item>Lincoln Park was named for the 16th President of the United States shortly after his assassination in 1865.
+            The park stretches along the lakeshore and contains the Lincoln Park Zoo,
+            the Lincoln Park Conservatory and the Lincoln Park Cultural Center.
+            The park itself offers golf courses, baseball fields, a skate park and paths for walking, jogging or biking.</item>
+        <item>One of Chicago\'s more prominent parks,
+            Garfield Park offers facilities for baseball, boxing, basketball, tennis and swimming and also has a playground,
+            fitness center, and paths for jogging, walking and biking</item>
+        <item>Designed by famous landscape architects Frederick Law Olmsted and Calvert Vaux,
+            Jackson Park became the chosen site for the World\'s Columbian Exposition of 1893.
+            Today, the 600-acre park offers golf, baseball, a fitness center, basketball, a playground,
+            tennis courts and paths for walking, jogging or biking.</item>
+        <item>One of the latest additions to the Chicago Park District,
+            Maggie Daley Park pays tribute to the late first lady of the city with 20 acres of recreational opportunity.
+            Walk across the BP Pedestrian Bridge from Millennium Park and you\’ll be greeted by a 40-foot climbing wall,
+            a quarter-mile skating ribbon and one of the most whimsical playgrounds in the city.
+            With facilities fit for kids and adults, this is a park where the entire family can spend the day having fun outdoors</item>
+        <item>Located in the South Shore community,
+            South Shore Cultural Center is a cultural facility that has been recognized as a Chicago Landmark and is also listed on the National Register.
+            This cultural haven was founded in 1905 and later rebuilt in 1916.
+            Bought by the Chicago Park District in 1975,
+            this historic building was restored as a historic landmark after a massive community campaign led by the Chicago Park District and historic preservationists.
+            South Shore Cultural Center totals 70.84 acres.</item>
+        <item>Designed by William Le Baron Jenney in the mid-1800s and enhanced several years later by Jens Jensen,
+            Humboldt Park was once the nation\’s greatest public park,
+            boasting acres of Prairie-style gardens, grazing animals and a meandering river scene.
+            Though the animals are long gone, the park is still a gem among Chicago\'s public green spaces, filled with lagoons,
+            tennis courts, an inland beach, a fieldhouse, baseball fields and bike paths.
+            Wandering through the area long enough and you\'ll probably come across the Humboldt Park Boathouse,
+            an iconic example of the Prairie-style architecture that was made famous by Frank Lloyd Wright.</item>
+    </string-array>
+    <string-array name="addressOfParks">
+        <item>201 E Randolph St Chicago IL 60602</item>
+        <item>337 E Randolph St Chicago IL 60601</item>
+        <item>Bloomingdale Trail Chicago</item>
+        <item>at Stockton and LaSalle Drs Chicago</item>
+        <item>100 N Central Park Ave Chicago</item>
+        <item>6401 S Stony Island Ave Chicago</item>
+        <item>337 E Randolph St Chicago IL 60601</item>
+        <item>7059 S Shore Dr Chicago</item>
+        <item>1400 N Sacramento Ave Chicago</item>
+    </string-array>
+    <string-array name="hoursOfParks">
+        <item>Daily 8am–9pm</item>
+        <item>Daily 6am-11pm</item>
+        <item>Daily 6am-11pm</item>
+        <item>Daily 6am–11pm</item>
+        <item>Daily 6am–11pm</item>
+        <item>Daily 6am–11pm</item>
+        <item>Daily 6am–11pm</item>
+        <item>Daily 7am–11pm</item>
+        <item>Daily 6am–11pm</item>
+    </string-array>
+
+    <string-array name="nameOfRestaurants">
+        <item>Lula Cafe</item>
+        <item>J.P. Graziano Grocery</item>
+        <item>Tzuco</item>
+        <item>Birrieria Zaragoza</item>
+        <item>avec</item>
+        <item>Giant</item>
+        <item>Boka</item>
+        <item>Oriole</item>
+        <item>Galit</item>
+    </string-array>
+    <string-array name="descriptionOfRestaurants">
+        <item>This Logan Square darling has been doing the whole farm-to-table thing long before it was a thing.
+            And though Lula hasn\'t resumed indoor or outdoor dining,
+            chef-owner Jason Hammel offers an unbelievable to-go menu that allows diners to bring home brunch,
+            lunch and the restaurant\'s famous farm dinners.
+            Place your order in advance and pick up at Lula\'s nifty carryout window.
+            Fair warning: You will be tempted to toss in something sweet from pastry chef Emily Spurlin—just go with it. </item>
+        <item>The old school vibe at this corner shop isn\’t manufactured—the Graziano family has been doing its thing here since 1937.
+            While it\’s hard to go wrong with any of their sandwiches, the Mr. G ($9.25)—prosciutto, salami and sopressata,
+            with biting aged provolone and marinated artichokes tucked into crackly-crisp bread anointed with hot oil and truffle mustard vinaigrette—claims house specialty status for a reason.</item>
+        <item>Beyond the whole eating-for-survival thing, what endears so many of us to food on a deeper level is its ability to tell a story.
+            In Tzuco\’s quenching ceviche verde, for example, you can almost taste pure, cold Pacific Ocean in pearlescent slivers of hamachi,
+            which are paired with three expressions of cactus, a plant that thrives in the most unforgiving locales.
+            The prickly flora is served cured, iced and juiced with mint, lime and a whisper of serrano chile.
+            Together, the elements sing of Mexico\’s varied bounty.</item>
+        <item>Thick handmade tortillas, salsas made to order, cinnamon-laced coffee. You can get all of that here.
+            Their only purpose, however, is to accompany this restaurant\’s signature platters of chopped goat meat.
+            As opposed to other birrierias, this goat doesn\’t touch a consommé until it\’s plated,
+            when some of the tomato-based broth is spooned over it.
+            At that point, a good dousing of the restaurant\’s intricate hot sauce, and maybe a squeeze of lime and some onions,
+            is all you need for one of the city\’s best goat tacos.</item>
+        <item>There are rules when eating at avec. One of them is “No talking about Israel.”
+            A few weeks ago I was eating dinner and my friend—not I—was breaking that rule. Loudly.
+            The man sitting next to me, whom I did not know but whom I spent the evening less than one inch from,
+            leaned into our space and said,
+            “What nation are you talking about?”
+            This is why you don\’t talk about Israel at avec.</item>
+        <item>A framed print of Shel Silverstein\’s poem Me and My Giant hangs on the wall of this ironically named Logan Square restaurant—it\’s tiny,
+            sitting only 44 people. But what Giant lacks in space it makes up for in flavor.
+            After closing Nightwood in 2015,
+            chef Jason Vincent took time off from the Chicago dining scene before opening Giant with partners Ben Lustbader and Josh Perlman in summer 2016.</item>
+        <item>While we were driving to dinner at Boka last weekend,
+            my dinner date confessed: “All I want to eat for dinner is chicken.”
+            “You\’re in luck,” I said. “Lee Wolen is a god of chicken.”
+            When the Boka Group overhauled its ten-year old flagship restaurant earlier this winter, it made a few key changes.
+            It revamped the space so it\’s unrecognizable from its previous, staid incarnation—now,
+            there\’s a huge moss- and plant-covered wall with paintings of elegantly dressed-up animals;
+            a bar area that feels like a boisterous brasserie, with dark leather, brick walls and dim lighting;
+            and portraits of Bill Murray and Dave Grohl as generals.</item>
+        <item>It took some time wandering through River West on an icy,
+            blustery night before we finally found the much raved-about Oriole—from industry vets Noah Sandoval,
+            Genie Kwon and Aaron McManus.
+            The door in the back alley is relatively unmarked, as if the restaurant knows it\’s worth seeking out. And it\’s not wrong.
+            Here is a fine diner that gets everything right, right from the start: The moment we entered,
+            the host whisked away my jacket and replaced it with a steaming cup of sochu-laced cider.
+            It was like she was reading my mind.</item>
+        <item>Hummus, falafel, shakshuka, labneh—hell—even pita.
+            You will have no doubt already experienced many of the dishes on Galit\’s broad-spectrum Middle Eastern menu.
+            But this Lincoln Park newcomer from James Beard award-winning chef Zachary Engel is where you go to revise the standard for how they should taste.</item>
+    </string-array>
+    <string-array name="numbersOfRestaurants">
+        <item>+1 773-489-9554</item>
+        <item>+1 312-666-4587</item>
+        <item>+1 312-374-8995</item>
+        <item>+1 773-523-3700</item>
+        <item>+1 312-377-2002</item>
+        <item>+1 773-252-0997</item>
+        <item>+1 312-337-6070</item>
+        <item>+1 312-877-5339</item>
+        <item>+1 773-360-8755</item>
+    </string-array>
+    <string-array name="priceOfRestaurants">
+        <item>$23 - $45</item>
+        <item>$6 - $20</item>
+        <item>$23 - $45</item>
+        <item>$8 - $20</item>
+        <item>$8 - $12</item>
+        <item>$20 - $45</item>
+        <item>$30 - $80</item>
+        <item>$190 - $400</item>
+        <item>$65 - $100</item>
+    </string-array>
+
+    <string-array name="nameOfHotels">
+        <item>Trump International Hotel</item>
+        <item>Claridge House</item>
+        <item>Thompson Chicago</item>
+        <item>LondonHouse Chicago</item>
+        <item>The Langham</item>
+        <item>Hotel Julian</item>
+        <item>Moxy Chicago Downtown</item>
+        <item>The Peninsula Chicago</item>
+        <item>Virgin Hotels Chicago</item>
+    </string-array>
+    <string-array name="descriptionOfHotels">
+        <item>Get past the 20-foot letters emblazoned on the building and there\’s no denying: This hotel is a stunner.
+            Guests beeline to the wellness trifecta on the 14th-floor that includes a 75-foot swimming pool,
+            an 11-treatment-room spa with sprawling locker rooms, and a serious fitness center wrapped in windows.
+            But even locals come to the 16th-floor rooftop for unparalleled views of the Chicago River and skyline.
+            They\'re doing it in a more laid-back atmosphere now though,
+            as the two-Michelin-starred Sixteen was replaced with a more casual option in 2018.</item>
+        <item>It\'s not easy to find peace and quiet around the Gold Coast,
+            but Claridge House somehow manages to provide a calm oasis in the middle of one of Chicago\'s busiest neighborhoods.
+            You can thank the hotel\'s fresh renovation,
+            which transformed the 165-room property into a relaxing home away from home:
+            warm gray walls and light features in the lobby,
+            tastefully minimal rooms with cozy throw blankets, and a luxurious spa located on the second floor.
+            And when you\'re ready to turn up the energy a few notches,
+            you can simply step outside of the hotel to find museums and restaurants filling every street—plus the shores of Lake Michigan just a 0.3 miles away.
+            Claridge House truly offers the best of both worlds.</item>
+        <item>Sleek with organic accents, the Thompson Chicago hints at Prairie School architectural homage.
+            Even the Cityview King has a great view of the skyline, but for a wee upgrade you get Lake Michigan, too.
+            There\'s a slightly masculine color scheme of neutrals and rich browns contributes to a sense of ease.
+            But the best perk of all?
+            You don\'t even have to leave the hotel to eat at one of Chicago\'s best restaurants: Nico Osteria,
+            known for seasonal Italian fare.
+            Other notable touches include the sleek design, quirky artwork, and great location.</item>
+        <item>Set in a landmark building where the Magnificent Mile meets the Chicago River,
+            LondonHouse Chicago is all about the views.
+            The gold coffered ceiling of the ground floor lobby makes a stunning first impression,
+            but the best rooms—the Vista rooms—are in a glass addition featuring floor-to-ceiling windows overlooking the river and the bridges that vault over it.
+            Dark wood paneling and framed black-and-white photos lend a slightly masculine tone.
+            There\'s a nightclubby restaurant on the 21st floor,
+            and a rooftop bar with one of the best views in the city is just one more floor up.
+            Buy a glass of Dom Perignon, and you can have the iconic cupola—the topper on the 1923 landmark building, and a popular engagement spot—all to yourself.</item>
+        <item>A highlight of any Chicago riverboat architecture tour is Mies van der Rohe\’s last skyscraper—330 North Wabash,
+            still commonly referred to as the IBM Building.
+            It\’s a paragon of the late International Style:
+            a 52-story rectangle of anodized aluminum and bronze glass that is the perfect distillation of corporate might and urban promise.
+            To check into the Langham Chicago,
+            which has occupied the building\’s first 13 floors since 2013,
+            is to step into the story the building tells about the American city.
+            You feel like you could be a character in a spy thriller as you pass through the note-perfect midcentury lobby and take the elevator to the elegant second-floor reception area</item>
+        <item>Located in the former Atlantic Bank Building on North Michigan Avenue,
+            Hotel Julian feels right at home in its prime spot across from Millennium Park—you\'d hardly guess it has only been around since late 2018.
+            Named after named after St. Julian, the patron saint of hospitality,
+            this 228-room property feels fully modern while retaining some historic touches—you\'ll see the building\'s original brickwork in the lobby,
+            for example.The guest rooms are roomy and minimal, with high ceilings and brown leather headboards.
+            The color and pizzazz seem to have been reserved for the social spaces: think lime green sofas,
+            patterned throw pillows, and jam packed gallery walls.</item>
+        <item>Neon-pink light strips punctuate the façade of Moxy Chicago,
+            an eight-story Downtown hotel that\'s a bit like a rec-room—for adults.Inside is no less loud,
+            with a lobby stuffed to the gills with all manner of aesthetic distractions.
+            Reception feels like an extension of the bar; a piñata sits on the tabletop;
+            graffiti covers exposed concrete walls; shuffleboard and foosball populate the common space;
+            and there\'s even a podcasting booth.
+            Food and drink options are limited to two venues: Zombie Taco,
+            which dishes out flavorful fare around the clock and includes an outdoor patio as well as a walk-up window for those on-the-go, and Bar Moxy,
+            a casual lobby hang with comically titled cocktails that pack a punch.</item>
+        <item>Bedrooms at The Peninsula Chicago are large for the downtown area,
+            but feel even more spacious thanks to clever ship-cabin cabinetry.
+            Indeed, interiors have a yacht-like feel, in both the space-saving design and the burled wood and leather finishes.
+            With muted pale-blue and steel-grey tones, the palette nods towards Lake Michigan, while a wall-size,
+            hand-embroidered rendering of a chrysanthemum refers to Peninsula\’s Asian roots without feeling too on-the-nose.</item>
+        <item>Virgin Hotels Chicago outpost is all about contrasts: It\'s buzzy in public and serene in private,
+            and cheeky accents and a cherry-red color scheme contrast with the stately old bank building it calls home.
+            At once clubby and retreat-like, there are loads of dining and drinking options: the centerpiece Commons Club,
+            the ground-level diner Miss Ricky\'s, and the rooftop bar and lounge, Cerise,
+            which has great views of the city from its seasonal patio.
+            The library—actually called the Funny Library—next to the second-floor Commons Club bar was curated by the improv group Second City.</item>
+    </string-array>
+    <string-array name="numbersOfHotels">
+        <item>+1 (312) 588-8000</item>
+        <item>+1 (312) 787-4980</item>
+        <item>+1 (312) 266-2100</item>
+        <item>+1 (312) 357-1200</item>
+        <item>+1 (312) 923-9988</item>
+        <item>+1 (312) 346-1200</item>
+        <item>+1 (312) 527-7200</item>
+        <item>+1 (312) 337-2888</item>
+        <item>+1 (855) 946-6600</item>
+    </string-array>
+    <string-array name="priceOfHotels">
+        <item>$260/night</item>
+        <item>$175/night</item>
+        <item>$125/night</item>
+        <item>$100/night</item>
+        <item>$278/night</item>
+        <item>$185/night</item>
+        <item>$160/night</item>
+        <item>$399/night</item>
+        <item>$128/night</item>
+    </string-array>
+</resources>
